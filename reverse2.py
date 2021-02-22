@@ -1,0 +1,11 @@
+tuple1=(10,20,30,40,50)
+list1=list(tuple1)
+i=0
+j=4
+while(i<=j):
+    a=list1[i]
+    list1[i]=list1[j]
+    list1[j]=a
+    i=i+1
+    j=j-1
+print(tuple(list1))
